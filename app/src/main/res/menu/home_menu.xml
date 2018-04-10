@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+    <item
+        android:id="@+id/action_loadFromDb"
+        android:title="Load from Db"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_clearDb"
+        android:title="Clear Database"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_requestFromApi"
+        android:title="Request data"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_requestMore"
+        android:title="Request More"
+        app:showAsAction="never" />
+
+</menu>
